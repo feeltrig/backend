@@ -1,0 +1,15 @@
+// // GET ALL DATA
+// app.get("/api/alldbusers", (req, res) => {
+//   client.connect(async (err) => {
+//     if (err) console.log(err);
+
+//     const collection = client
+//       .db("mongodbdatabase")
+//       .collection("firstcollection");
+
+//     //   main query
+//     const result = await collection.find({}).toArray();
+//     res.json(result);
+//     client.close();
+//   });
+// });
